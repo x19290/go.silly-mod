@@ -5,6 +5,6 @@ import (
 	"testing"
 )
 
-func Test(t *testing.T) {
+func TestNaked(t *testing.T) {
 	assert.Equal(t, version, Version)
 }

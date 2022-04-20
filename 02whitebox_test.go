@@ -6,6 +6,6 @@ import (
 	"testing"
 )
 
-func Test(t *testing.T) {
+func TestWhite(t *testing.T) {
 	assert.Equal(t, Version, private())
 }
