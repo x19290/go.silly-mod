@@ -55,3 +55,15 @@ A MS-DOG user or even a POSIX user easily follow the same steps in it manually.
 A repo that has [github.com/x19290/go.silly-mod](https://github.com/x19290/go.silly-mod) as a submodule.
 
 From the former, you can access the latter locally or remotely.
+
+## Silly note
+
+v0.0.[2-9]* are wrong semantic versions.
+
+I renamed the unique module name between the v0.0.1 to v0.0.2 change.
+
+This careless mistake made `github.com/x19290/go.silly-mod@v0.0.1`
+a perfectly broken go module,
+even if the v0.0.1 tag exists as a git commit reference.
+
+I should have versioned this destructive change as v1.0.0, not v0.0.2.
