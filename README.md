@@ -20,7 +20,7 @@
   - 02whitebox_test.go
     - .TestWhite()
 
-- ./testdata
+- ./1testdata
   - 10public.go
     - .Version
   - 11private.go
@@ -55,4 +55,3 @@ A MS-DOG user or even a POSIX user easily follow the same steps in it manually.
 A repo that has [github.com/x19290/go.silly-mod](https://github.com/x19290/go.silly-mod) as a submodule.
 
 From the former, you can access the latter locally or remotely.
-
