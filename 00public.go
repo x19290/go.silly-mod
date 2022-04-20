@@ -1,4 +1,4 @@
-package simplest
+package silly
 
 func Public() string {
 	return private()

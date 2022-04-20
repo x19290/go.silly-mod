@@ -1,8 +1,8 @@
-package simplest
+package silly
 
 import (
 	"github.com/stretchr/testify/assert"
-	. "github.com/x19290/go.simplest-mod/1testdata"
+	. "github.com/x19290/go.silly-mod/1testdata"
 	"testing"
 )
 
