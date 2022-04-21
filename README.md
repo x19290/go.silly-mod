@@ -3,11 +3,15 @@
 ## Unique/Short packages of dirs
 
 - ./
-  - [github.com/x19290/go.silly-mod](https://github.com/x19290/go.silly-mod)
+  - [github.com/x19290/go.silly-mod](
+    https://github.com/x19290/go.silly-mod
+    )
   - silly
 
 - ./1testdata/
-  - [github.com/x19290/go.silly-mod](https://github.com/x19290/go.silly-mod)/1testdata
+  - [github.com/x19290/go.silly-mod](
+    https://github.com/x19290/go.silly-mod
+    )/1testdata
   - naked
 
 ## Contents of dirs
@@ -48,22 +52,18 @@
 POSIX specific.
 Expected to be run on the dir that holds itself.
 
-A MS-DOG user or even a POSIX user easily follow the same steps in it manually.
+A MS-DOG user or even a POSIX user
+can easily follow the same steps in it manually.
 
-## [github.com/x19290/go.silly-mod-demo](https://github.com/x19290/go.silly-mod-demo)
+## github.com/x19290/go.silly-mod-demo
+(https://github.com/x19290/go.silly-mod-demo)
 
-A repo that has [github.com/x19290/go.silly-mod](https://github.com/x19290/go.silly-mod) as a submodule.
+A repo that has [github.com/x19290/go.silly-mod](
+  https://github.com/x19290/go.silly-mod
+  ) as a submodule.
 
 From the former, you can access the latter locally or remotely.
 
-## Silly note
+## Words from a novice to novices
 
-v0.0.[2-9]* are wrong semantic versions.
-
-I renamed the unique module name between the v0.0.1 to v0.0.2 change.
-
-This careless mistake made `github.com/x19290/go.silly-mod@v0.0.1`
-a perfectly broken go module,
-even if the v0.0.1 tag exists as a git commit reference.
-
-I should have versioned this destructive change as v1.0.0, not v0.0.2.
+- [Naming/Versioning confusion](novice2novice/naming-confusion.md)
