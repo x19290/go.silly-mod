@@ -82,4 +82,4 @@ From the former, you can access the latter locally or remotely.
 ## Words from a novice to novices
 
 - [Naming/Versioning confusion](novice2novice/naming-confusion.md)
-- [About demo main()s](novice2novice/demo-mains.md)
+- [About main(s)](novice2novice/mains.md)
